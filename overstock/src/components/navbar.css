@@ -1,0 +1,19 @@
+.d-flex input{
+    width: 1000px;
+}
+
+.search-btn{
+    
+    color: white;
+    font-size: 20px;
+    padding: 2px 9px;
+    background-color: #ff1f2c;
+    border: none;
+    font-weight: lighter;
+    border-radius: 0px 5px 5px 0px;
+}
+.navbar-nav{
+    /* display: flex; */
+    gap: 22px;
+    font-size: 32px;
+}
