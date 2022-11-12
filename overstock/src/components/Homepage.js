@@ -1,17 +1,148 @@
 function Homepage(){
     return (
         <>
-       <header>
-  <div className="black-sale">
+        <header>
+  <div className="deck-hall">
     <a href="#" className="black-friday">
       <div className="home-page">
         <img src="https://ak1.ostkcdn.com/img/mxc/10312022-A1-HP-INTL-1400x550_DSK-INTL.jpg" alt />
       </div>
-      <div className="home-txt">
+      <div className="deck-hall-img">
         <img src="https://ak1.ostkcdn.com/img/mxc/10312022-A1-HP-INTL-1400x550_DSK-INTL.svg" alt />
       </div>
     </a>
     <h1>Limited-Time Deals</h1>
+  </div>
+  {/* offers */}
+  <div className="offers">
+    <div className="time-limit-deal">
+      <a href="#">
+        <div className="deal-content">
+          <img src="https://ak1.ostkcdn.com/img/mxc/11102022_V2_HB_INTL-CAN_1.jpg?imwidth=1920" alt="#" />
+        </div>
+        <div className="deal-content1">
+          <img src="https://ak1.ostkcdn.com/img/mxc/11102022_V2_HB_DOMESTIC_1.svg?imwidth=1920" alt="#" />
+          <h4>select rugs</h4>
+        </div>
+      </a>
+    </div>
+    <div className="time-limit-deal">
+      <a href="#">
+        <div className="deal-content">
+          <img src="https://ak1.ostkcdn.com/img/mxc/11102022_V2_HB_INTL-CAN_2.jpg?imwidth=1920" alt="#" />
+        </div>
+        <div className="deal-content1">
+          <img src="https://ak1.ostkcdn.com/img/mxc/11102022_V2_HB_INTL-CAN_2.svg?imwidth=1920" alt="#" />
+          <h4>select dining room furniture</h4>
+        </div>
+      </a>
+    </div>
+    <div className="time-limit-deal">
+      <a href="#">
+        <div className="deal-content">
+          <img src="https://ak1.ostkcdn.com/img/mxc/11102022_V2_HB_INTL-CAN_3.jpg?imwidth=1920" alt="#" />
+        </div>
+        <div className="deal-content1">
+          <img src="https://ak1.ostkcdn.com/img/mxc/11102022_V2_HB_INTL-CAN_2.svg?imwidth=1920" alt="#" />
+          <h4>select bedding &amp; bath</h4>
+        </div>
+      </a>
+    </div>
+    <div className="time-limit-deal">
+      <a href="#">
+        <div className="deal-content">
+          <img src="https://ak1.ostkcdn.com/img/mxc/11102022_V2_HB_INTL-CAN_4.jpg?imwidth=1920" alt="#" />
+        </div>
+        <div className="deal-content1">
+          <img src="https://ak1.ostkcdn.com/img/mxc/11102022_V2_HB_INTL-CAN_2.svg?imwidth=1920" alt="#" />
+          <h4>select lighting &amp; ceiling fans</h4>
+        </div>
+      </a>
+    </div>
+    <div className="time-limit-deal">
+      <a href="#">
+        <div className="deal-content">
+          <img src="https://ak1.ostkcdn.com/img/mxc/11102022_V2_HB_INTL-CAN_5.jpg?imwidth=1920" alt="#" />
+        </div>
+        <div className="deal-content1">
+          <img src="https://ak1.ostkcdn.com/img/mxc/11102022_V2_HB_INTL-CAN_2.svg?imwidth=1920" alt="#" />
+          <h4>select home decor</h4>
+        </div>
+      </a>
+    </div>
+    <div className="time-limit-deal">
+      <a href="#">
+        <div className="deal-content">
+          <img src="https://ak1.ostkcdn.com/img/mxc/11102022_V2_HB_DOMESTIC_5.jpg?imwidth=1920" alt="#" />
+        </div>
+        <div className="deal-content1">
+          <img src="https://ak1.ostkcdn.com/img/mxc/11102022_V2_HB_INTL-CAN_2.svg?imwidth=1920" alt="#" />
+          <h4>select bedroom furniture</h4>
+        </div>
+      </a>
+    </div>
+  </div>
+  {/* fav-brand */}
+  <div className="brands-header">
+    <h1>Brands We Love</h1>
+    <div className="fav-brands">
+      <div className="brands-content">
+        <a href="#">
+          <div className="brnads-content-img">
+            <img src="https://ak1.ostkcdn.com/img/mxc/110822-DysonLogo.svg?imwidth=1920" alt />
+          </div>
+        </a>
+      </div>
+      <div className="brands-content">
+        <a href="#">
+          <div className="brnads-content-img">
+            <img src="https://ak1.ostkcdn.com/img/mxc/110822-KeurigLogo.svg?imwidth=1920" alt />
+          </div>
+        </a>
+      </div>
+      <div className="brands-content">
+        <a href="#">
+          <div className="brnads-content-img">
+            <img src="https://ak1.ostkcdn.com/img/mxc/110822-SharkLogo.svg?imwidth=1920" alt />
+          </div>
+        </a>
+      </div>
+      <div className="brands-content">
+        <a href="#">
+          <div className="brnads-content-img">
+            <img src="https://ak1.ostkcdn.com/img/mxc/110822-CasperLogo.svg?imwidth=1920" alt />
+          </div>
+        </a>
+      </div>
+      <div className="brands-content">
+        <a href="#">
+          <div className="brnads-content-img">
+            <img src="https://ak1.ostkcdn.com/img/mxc/110822-NinjaLogo.svg?imwidth=1920" alt />
+          </div>
+        </a>
+      </div>
+      <div className="brands-content">
+        <a href="#">
+          <div className="brnads-content-img">
+            <img src="https://ak1.ostkcdn.com/img/mxc/110822-CuisinartLogo.svg?imwidth=1920" alt />
+          </div>
+        </a>
+      </div>
+      <div className="brands-content">
+        <a href="#">
+          <div className="brnads-content-img">
+            <img src="https://ak1.ostkcdn.com/img/mxc/110822-CalphalonLogo.svg?imwidth=1920" alt />
+          </div>
+        </a>
+      </div>
+      <div className="brands-content">
+        <a href="#">
+          <div className="brnads-content-img">
+            <img src="https://ak1.ostkcdn.com/img/mxc/110822-DysonLogo.svg?imwidth=1920" alt />
+          </div>
+        </a>
+      </div>
+    </div>
   </div>
   {/* deck-hell */}
   <div className="deck-hall">
@@ -100,7 +231,9 @@ function Homepage(){
       <p>Shop All Deal</p>
     </div>
   </div>
-  <h1 style={{textAlign: 'center'}}>Seasonal Updates to Warm up Your Winter</h1>
+  <h1 style={{textAlign: 'center'}}>
+    Seasonal Updates to Warm up Your Winter
+  </h1>
   {/* seasonal update */}
   <div className="seasonal-update">
     <div className="seasonal-update-content">
@@ -162,14 +295,14 @@ function Homepage(){
     <div className="seasonal-update-content">
       <a href="#">
         <img src="https://ak1.ostkcdn.com/img/mxc/HP_C_Mod_37373953.jpg?imwidth=1920" alt="#" />
-        <h4>Extra 15% off </h4>
+        <h4>Extra 15% off</h4>
         <p>Select Furniture by Angelo Home*</p>
       </a>
     </div>
     <div className="seasonal-update-content">
       <a href="#">
         <img src="https://ak1.ostkcdn.com/img/mxc/HP_C_Mod_37777461.jpg?imwidth=1920" alt="#" />
-        <h4>Extra 15% off </h4>
+        <h4>Extra 15% off</h4>
         <p>Select Furniture by Angelo Home*</p>
       </a>
     </div>
@@ -186,6 +319,109 @@ function Homepage(){
     </a>
     <h1>We've Got Your Style</h1>
   </div>
+  {/* own style */}
+  <div className="own-style">
+    <div className="own-style-content">
+      <a href="#">
+        <img src="https://ak1.ostkcdn.com/img/mxc/030822-SBS-MidCenMod.jpg?imwidth=1920" alt="#" />
+        <h2>Mid-Century Modern</h2>
+        <p>
+          Retro meets modern chic in these clean lines and vibrant tones.
+        </p>
+      </a>
+    </div>
+    <div className="own-style-content">
+      <a href="#">
+        <img src="https://ak1.ostkcdn.com/img/mxc/030822-SBS-Farmhouse.jpg?imwidth=1920" alt="#" />
+        <h2>Farmhouse</h2>
+        <p>
+          Country comforts abound in this fresh take on rustic home decor.
+        </p>
+      </a>
+    </div>
+    <div className="own-style-content">
+      <a href="#">
+        <img src="https://ak1.ostkcdn.com/img/mxc/030822-SBS-Traditional.jpg?imwidth=1920" alt="#" />
+        <h2>Traditional</h2>
+        <p>
+          Cozy designs, clean and classic, give this style it’s signature
+          appeal.
+        </p>
+      </a>
+    </div>
+  </div>
+  {/* button */}
+  <div className="see-style">
+    <button>See All Styles</button>
+  </div>
+  {/* treads */}
+  <div className="treads">
+    <h1>Trending Searches</h1>
+    <div className="treads-content">
+      <div className="tread-btn">
+        <a href="#">
+          <button>Mugs</button>
+        </a>
+      </div>
+      <div className="tread-btn">
+        <a href="#">
+          <button>Blankets</button>
+        </a>
+      </div>
+      <div className="tread-btn">
+        <a href="#">
+          <button>Coockie Cutters</button>
+        </a>
+      </div>
+      <div className="tread-btn">
+        <a href="#">
+          <button>Air Fryers</button>
+        </a>
+      </div>
+      <div className="tread-btn">
+        <a href="#">
+          <button>Kitchen Mixers</button>
+        </a>
+      </div>
+      <div className="tread-btn">
+        <a href="#">
+          <button>Lamps</button>
+        </a>
+      </div>
+      <div className="tread-btn">
+        <a href="#">
+          <button>Towels</button>
+        </a>
+      </div>
+      <div className="tread-btn">
+        <a href="#">
+          <button>Tree Skirts</button>
+        </a>
+      </div>
+      <div className="tread-btn">
+        <a href="#">
+          <button>Garland</button>
+        </a>
+      </div>
+      <div className="tread-btn">
+        <a href="#">
+          <button>Fall Wreaths</button>
+        </a>
+      </div>
+      <div className="tread-btn">
+        <a href="#">
+          <button>Chirstmas Trees</button>
+        </a>
+      </div>
+      <div className="tread-btn">
+        <a href="#">
+          <button>Firepalces</button>
+        </a>
+      </div>
+    </div>
+  </div>
+  {/* line */}
+  <hr />
 </header>
 
         </>
